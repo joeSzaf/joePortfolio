@@ -1,0 +1,89 @@
+.container {
+  display: grid;
+  grid-gap: 0px;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto auto auto auto 100px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.header {
+  grid-column: 1 / -1;
+  overflow: hidden;
+  background-color: #F8F8F8;
+  padding-bottom: 1.5em;
+  padding-top: 1.5em;
+  letter-spacing: 5px;
+}
+
+.who {
+  grid-column: 1 / -1;
+  text-align: center;
+  background-color: #1ABC9C;
+  padding-bottom: 2em;
+  padding-top: 2em;
+}
+
+.what {
+  grid-column: 1 / -1;
+  background-color: #474E5D;
+  padding: 2em;
+}
+
+.where {
+  grid-column: 1 / -1;
+  background-color: #FFFFFF;
+  color: black;
+  padding: 2em;
+}
+
+.footer {
+  grid-column: 1 / -1;
+  background-color: #2F2F2F;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  padding: 2em;
+}
+
+.header-right {
+  float: right;
+}
+
+.header a {
+  float: left;
+  color: gray;
+  text-align: center;
+  padding: 10px;
+  padding-right: 50px;
+  line-height: 15px;
+}
+
+.linkedIn {
+  height: 60px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.where-column {
+  background-color: pink;
+  outline: solid black 1px;
+  float:left;
+  box-sizing: border-box;
+  padding: 0.5em;
+}
+
+#c1, #c3 {
+  width: 33%;
+}
+
+#c2 {
+  width: 34%;
+}

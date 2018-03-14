@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container > div {
+  justify-content: center;
+  align-items: center;
+}
+
+html, body {
+  background-color: #F1F1F1;
+  margin: 1em;
+  color: #FFF;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bottom-space {
+  padding-bottom: 1.2em;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2em;
+}
+
+h4 {
+  font-size: 1.2em;
+  font-family: sans-serif;
+}
+
+p {
+  font-size: 1em;
+  font-family: serif;
+}
+
+a {
+  text-decoration: none;
+}
